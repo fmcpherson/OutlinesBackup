@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>glossary</title>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<dateModified>Fri, 03 Feb 2017 22:57:20 GMT</dateModified>
+		<expansionState></expansionState>
+		<lastCursor>4</lastCursor>
+		<urlUpdateSocket>ws://readwrite.club:2000/</urlUpdateSocket>
+		</head>
+	<body>
+		<outline text="&quot;FrankNet&quot;" created="Tue, 19 Aug 2014 20:31:32 GMT">
+			<outline text="&lt;a href=&quot;http://stories.frankmcpherson.net/2014/07/26/welcomeToFranknet.html&quot;&gt;FrankNet&lt;/a&gt;" created="Tue, 19 Aug 2014 20:31:51 GMT"/>
+			</outline>
+		<outline text="&quot;Disclosure&quot;" created="Fri, 08 Aug 2014 18:16:10 GMT">
+			<outline text="[&lt;a href=&quot;http://frank.frankmcpherson.net/disclosure.html&quot;&gt;Disclosure&lt;/a&gt;]" created="Fri, 08 Aug 2014 18:16:14 GMT"/>
+			</outline>
+		<outline text="&quot;Surface 3&quot;" created="Tue, 19 May 2015 21:56:27 GMT">
+			<outline text="&lt;a href=&quot;https://www.microsoft.com/surface/en-us/products/surface-3&quot;&gt;Surface 3&lt;/a&gt;" created="Tue, 19 May 2015 21:56:33 GMT"/>
+			</outline>
+		<outline text="&quot;Surface Pen&quot;" created="Wed, 23 Dec 2015 20:37:53 GMT">
+			<outline text="&lt;a href=&quot;https://www.microsoft.com/surface/en-us/accessories/pen&quot;&gt;Surface Pen&lt;/a&gt;" created="Wed, 23 Dec 2015 20:37:59 GMT"/>
+			</outline>
+		<outline text="&quot;Fargo&quot;" created="Tue, 19 May 2015 22:07:27 GMT">
+			<outline text="&lt;a href=&quot;http://fargo.io/docs/whatIsFargo.html&quot;&gt;Fargo&lt;/a&gt;" created="Tue, 19 May 2015 22:07:32 GMT"/>
+			</outline>
+		<outline text="&quot;EliteDisplay&quot;" created="Sun, 07 Jun 2015 19:35:46 GMT">
+			<outline text="&lt;a href=&quot;http://www8.hp.com/us/en/ads/elite-amd-products/elitedisplay-s240ml.html&quot;&gt;HP EliteDisplay S240ml&lt;/a&gt;" created="Sun, 07 Jun 2015 19:35:52 GMT"/>
+			</outline>
+		<outline text="&quot;Amazon Echo&quot;" created="Thu, 11 Jun 2015 13:21:09 GMT">
+			<outline text="&lt;a href=&quot;http://www.amazon.com/oc/echo/ref_=ods_dp_ae&quot;&gt;Amazon Echo&lt;/a&gt;" created="Thu, 11 Jun 2015 13:21:14 GMT"/>
+			</outline>
+		<outline text="&quot;Nexus 6P&quot;" created="Sat, 07 Nov 2015 20:40:46 GMT">
+			<outline text="&lt;a href=&quot;http://www.gsmarena.com/huawei_nexus_6p-7588.php&quot;&gt;Nexus 6P&lt;/a&gt;" created="Sat, 07 Nov 2015 20:40:51 GMT"/>
+			</outline>
+		<outline text="&quot;Dave Winer&quot;" created="Mon, 09 May 2016 20:46:34 GMT">
+			<outline text="&lt;a href=&quot;http://davewiner.com/&quot;&gt;Dave Winer&lt;/a&gt;" created="Mon, 09 May 2016 20:46:37 GMT"/>
+			</outline>
+		<outline text="&quot;CloudAtCost&quot;" created="Fri, 08 Jul 2016 15:49:57 GMT">
+			<outline text="&lt;a href=&quot;http://www.cloudatcost.com/&quot;&gt;CloudAtCost&lt;/a&gt;" created="Fri, 08 Jul 2016 15:50:09 GMT"/>
+			</outline>
+		<outline text="&quot;MintBox&quot;" created="Fri, 20 Jan 2017 22:39:28 GMT">
+			<outline text="&lt;a href=&quot;http://www.fit-pc.com/web/products/mintbox/mintbox-mini-pro/&quot;&gt;MintBox&lt;/a&gt;" created="Fri, 20 Jan 2017 22:39:41 GMT"/>
+			</outline>
+		</body>
+	</opml>

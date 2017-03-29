@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>testListicle</title>
+		<dateModified>Sun, 12 Feb 2017 19:39:08 GMT</dateModified>
+		<expansionState></expansionState>
+		<lastCursor>0</lastCursor>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<urlUpdateSocket>ws://readwrite.club:2000/</urlUpdateSocket>
+		</head>
+	<body>
+		<outline text="Sunsets over water"/>
+		<outline text="Camp fires" created="Thu, 19 Jan 2017 23:33:14 GMT"/>
+		<outline text="Sunshine" created="Thu, 19 Jan 2017 23:33:20 GMT"/>
+		<outline text="The smell of freshly cut grass" created="Thu, 19 Jan 2017 23:33:23 GMT"/>
+		</body>
+	</opml>

@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>Frank's Work Notes</title>
+		<urlOpml>http://readwrite.club:1999/users/frankm/myOutlines/Work Notes.opml</urlOpml>
+		<longTitle>Frank's Work Notes</longTitle>
+		<description>Here is an outline of things that I am tracking or making note of. </description>
+		<dateModified>Wed, 01 Mar 2017 01:54:16 GMT</dateModified>
+		<expansionState>1</expansionState>
+		<lastCursor>1</lastCursor>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<urlUpdateSocket>ws://readwrite.club:2000/</urlUpdateSocket>
+		</head>
+	<body>
+		<outline text="February 2017" created="Thu, 02 Feb 2017 23:35:18 GMT" name="february2017">
+			<outline text="February 17" created="Fri, 17 Feb 2017 20:54:53 GMT" name="17">
+				<outline text="Docker for Windows" created="Fri, 17 Feb 2017 20:54:54 GMT" type="outline">
+					<outline text="Installed Docker for Windows on the new work computer. Not having any luck enabling share access to the C drive in order to mount volumes. Volume mounting is kind of important, so this appears to make Docker for Windows a non-starter." created="Fri, 17 Feb 2017 20:54:58 GMT"/>
+					<outline text="Figured this out, it was a corporate firewall rule that was blocking this access." created="Tue, 21 Feb 2017 04:03:05 GMT"/>
+					</outline>
+				</outline>
+			<outline text="February 12" created="Sun, 12 Feb 2017 19:27:47 GMT" name="12">
+				<outline text="Started 1999 Site As Root" created="Sun, 12 Feb 2017 19:27:48 GMT" type="outline">
+					<outline text="A couple of days ago I made the mistake of starting storage.js while logged in root. The consequence is that the callback script that copies content to my S3 bucket was not existing because it was looking in the wrong spot for credentials. " created="Sun, 12 Feb 2017 19:28:01 GMT"/>
+					<outline text="Another consequence is that new files and directories created by storage.js was owned by root. I had to change ownership of the files to my id and then give my id  readwrite permission to the files " created="Sun, 12 Feb 2017 19:28:59 GMT">
+						<outline text="sudo chown [user id]:[group id] [file or directory name] " created="Sun, 12 Feb 2017 19:30:19 GMT"/>
+						<outline text="chmod g+w [file name] to give group write permission to the file" created="Sun, 12 Feb 2017 19:30:45 GMT"/>
+						</outline>
+					</outline>
+				</outline>
+			<outline text="February 11" created="Sat, 11 Feb 2017 22:20:54 GMT" name="11">
+				<outline text="Running River5 on Port 80 on Google Cloud Platform" created="Sat, 11 Feb 2017 22:20:55 GMT" type="outline">
+					<outline text="The Bitnami Nodejs image installs Apache and it is configured to listen on port 80. Apache needs to be turned off" created="Sat, 11 Feb 2017 22:21:22 GMT">
+						<outline text="sudo /opt/bitnami/ctlscript.sh stop apache " created="Sat, 11 Feb 2017 22:22:24 GMT"/>
+						</outline>
+					<outline text="The id that will run the Nodejs app needs access to port 80" created="Sat, 11 Feb 2017 22:24:00 GMT">
+						<outline text="sudo node river5.js" created="Sat, 11 Feb 2017 22:24:37 GMT"/>
+						</outline>
+					</outline>
+				</outline>
+			<outline text="February 10" created="Fri, 10 Feb 2017 17:20:26 GMT" name="10">
+				<outline text="CloudAtCost Comments on Reddit" created="Sat, 11 Feb 2017 03:40:27 GMT" type="outline">
+					<outline text="Found &lt;a href=&quot;https://www.reddit.com/r/CloudAtCost/&quot;&gt;a message board on Reddit&lt;/a&gt;. Looks like lots of people are complaining. Might have to think about what to do with my servers." created="Sat, 11 Feb 2017 03:40:40 GMT"/>
+					</outline>
+				<outline text="Using Tmux" created="Sat, 11 Feb 2017 03:12:07 GMT" type="outline">
+					<outline text="&lt;a href=&quot;https://gist.github.com/MohamedAlaa/2961058&quot;&gt;Tmux&lt;/a&gt; is a session tool that you can use to run sessions in the background in Linux. " created="Sat, 11 Feb 2017 03:12:12 GMT">
+						<outline text="List sessions: tmux ls" created="Sat, 11 Feb 2017 03:15:07 GMT"/>
+						<outline text="Attach to named session: tmux a -t [session name]" created="Sat, 11 Feb 2017 03:15:12 GMT"/>
+						<outline text="Start new session: tmux new -s [session name]" created="Sat, 11 Feb 2017 03:15:51 GMT"/>
+						<outline text="Exit out of a session: Ctrl-b, d" created="Sat, 11 Feb 2017 03:16:22 GMT"/>
+						</outline>
+					<outline text="I've decided to use it to run river5 in the background on the Raspberry Pi. I am also using it to run river5 in the background on the GCP instance. " created="Sat, 11 Feb 2017 03:12:48 GMT"/>
+					</outline>
+				<outline text="Android Terminal and Linux Tools" created="Fri, 10 Feb 2017 21:50:54 GMT" type="outline">
+					<outline text="Based on reading &lt;a href=&quot;http://bergie.iki.fi/blog/working-on-android-2017/&quot;&gt;this article&lt;/a&gt; about working with an Android tablet, I installed the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.termux&amp;rdid=com.termux&quot;&gt;Termux &lt;/a&gt;application on my Nexus 9. The &lt;a href=&quot;https://termux.com/help.html&quot;&gt;online help for Termux&lt;/a&gt; provides information about how you can use it and how to install packages. " created="Fri, 10 Feb 2017 21:52:15 GMT"/>
+					</outline>
+				<outline text="Public link to OPML files" created="Fri, 10 Feb 2017 20:11:04 GMT" type="outline">
+					<outline text="&lt;a href=&quot;http://lo.1999.io/2016/07/14/0007.html&quot;&gt;How to article&lt;/a&gt;" created="Fri, 10 Feb 2017 20:11:09 GMT"/>
+					</outline>
+				<outline text="Another CloudAtCost Server Outage" created="Fri, 10 Feb 2017 17:20:27 GMT" type="outline">
+					<outline text="Sandstorm and 1999 were both down. 1999 had a read-only FS, rebooted server. Sandstorm is indicating a BUS error. Reboot has not brought the server back up." created="Fri, 10 Feb 2017 17:20:35 GMT"/>
+					<outline text="Submitted support ticket for the Sandstorm server." created="Fri, 10 Feb 2017 20:08:17 GMT"/>
+					</outline>
+				</outline>
+			<outline text="February 9" created="Thu, 09 Feb 2017 18:35:41 GMT" name="09">
+				<outline text="New River5 Server on Google Cloud Platform" created="Thu, 09 Feb 2017 18:35:42 GMT" type="outline">
+					<outline text="Created a new Nodejs VM on GCP to host River5. Server is running and accessible at http://146.148.103.194:1337/. " created="Thu, 09 Feb 2017 18:35:58 GMT"/>
+					<outline text="Need to configure for port 80 and point URL to the new server. " created="Thu, 09 Feb 2017 18:36:55 GMT"/>
+					<outline text="Using &lt;a href=&quot;https://gist.github.com/MohamedAlaa/2961058&quot;&gt;tmux&lt;/a&gt; to run the session in the background. More doco stored in Evernote" created="Thu, 09 Feb 2017 18:37:20 GMT"/>
+					<outline text="Doco for &lt;a href=&quot;https://cloud.google.com/compute/docs/instances/connecting-to-instance&quot;&gt;connecting to GCP Linux instances&lt;/a&gt;" created="Thu, 09 Feb 2017 18:38:33 GMT"/>
+					</outline>
+				</outline>
+			<outline text="February 7" created="Wed, 08 Feb 2017 03:04:41 GMT" name="07">
+				<outline text="A Smarter Crib" created="Wed, 08 Feb 2017 03:04:42 GMT" type="outline">
+					<outline text="Published a new blog post, &lt;a href=&quot;https://realpersonalcomputing.com/2017/02/07/a-smarter-crib/&quot;&gt;A Smart Crib&lt;/a&gt;, to Real Personal Computing" created="Wed, 08 Feb 2017 03:04:50 GMT"/>
+					</outline>
+				</outline>
+			<outline text="February 4" created="Sat, 04 Feb 2017 20:36:05 GMT" name="04">
+				<outline text="Google In Da House" created="Sat, 04 Feb 2017 20:36:06 GMT" type="outline">
+					<outline text="Published a new blog post,&lt;a href=&quot;https://realpersonalcomputing.com/2017/02/04/google-in-da-house/&quot;&gt; Google In Da House&lt;/a&gt;, to Real Personal Computing" created="Sat, 04 Feb 2017 20:36:12 GMT"/>
+					</outline>
+				</outline>
+			<outline text="February 3" created="Fri, 03 Feb 2017 22:20:32 GMT" name="03">
+				<outline text="File Verbs" created="Fri, 03 Feb 2017 23:45:12 GMT" type="outline">
+					<outline text="Went back and looked at the post on the Little Outliner blog about file verbs. &lt;a href=&quot;http://lo.1999.io/2017/01/17/theScriptsMenu.html&quot;&gt;Dave added file verbs&lt;/a&gt; that should work with the public outlines. Need to study." created="Fri, 03 Feb 2017 23:45:16 GMT"/>
+					<outline text="Here is &lt;a href=&quot;http://littleoutliner.com/verbs.js&quot;&gt;a list of the verbs&lt;/a&gt; (Javascript) in Little Outliner" created="Sat, 04 Feb 2017 20:38:46 GMT"/>
+					</outline>
+				<outline text="OPML Reader" created="Fri, 03 Feb 2017 23:36:30 GMT" type="outline">
+					<outline text="The link/URL format to the web based OPML reader is &lt;a href=&quot;http://reader.smallpicture.com/?opmlurl=&quot;&gt;http://reader.smallpicture.com/?opmlurl=&lt;/a&gt;" created="Fri, 03 Feb 2017 23:36:40 GMT"/>
+					</outline>
+				<outline text="Made This A Live Outline" created="Fri, 03 Feb 2017 22:49:56 GMT" type="outline">
+					<outline text="Dave has added the &lt;a href=&quot;http://lo.1999.io/2017/02/02/statusCenters.html&quot;&gt;Status Center&lt;/a&gt; / Live Outline functionality to Little Outliner. It means that I can publish this outline live. " created="Fri, 03 Feb 2017 22:50:08 GMT"/>
+					<outline text="As you might know, Fargo.io will cease to function writing and publishing platfom this summer when Dropbox shuts down its API. One thing I did in Fargo was to take notes it what I called my Work Notes outline. I &lt;a href=&quot;http://notes.frankmcpherson.net/&quot;&gt;published those notes to a blog&lt;/a&gt; for ease of access and public visibility, in case anyone could benefit or cares. " created="Fri, 03 Feb 2017 22:51:02 GMT"/>
+					<outline text="When Dave added the Notes feature to Little Outliner, I created a new work notes outliner but I have not had an easy way to make to available outside of Little Outliner. With Status Center I now have a way to make my work notes outline more broadly accessible.  " created="Fri, 03 Feb 2017 22:54:21 GMT"/>
+					<outline text="A problem that I see is that the Live Outline loads with all the top level and second level nodes expanded. As this outline grows, the page is going to get long. Clearly, Status Center was not created for something like this. Now, I seem to recall, Fargo had an attribute where you could specify that the default condition of a node is collapsed, I wonder whether that attribute is accessible in Status Center by default?" created="Fri, 03 Feb 2017 23:03:33 GMT"/>
+					<outline text="I am wondering, does a comment prevent an item from appearing live?  --&gt; It does!" created="Fri, 03 Feb 2017 23:18:45 GMT" isComment="false"/>
+					<outline text="I found &lt;a href=&quot;http://fargo.io/blog/2014/07/12/fargo164.html&quot;&gt;the collapse attribute in the notes for Fargo 1.64&lt;/a&gt;. I assume the value should be true, so far in my testing that doesn't work." created="Fri, 03 Feb 2017 23:26:59 GMT"/>
+					</outline>
+				<outline text="Virtualization topics I am studying" created="Fri, 03 Feb 2017 22:20:33 GMT" type="outline">
+					<outline text="Virtualizing Exchange 2016" created="Fri, 03 Feb 2017 22:20:42 GMT" type="link" url="https://technet.microsoft.com/en-us/library/jj619301(v=exchg.160).aspx"/>
+					<outline text="vmGenID security" created="Fri, 03 Feb 2017 22:21:14 GMT" type="link" url="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=vmgenid+security"/>
+					</outline>
+				</outline>
+			<outline text="February 2" created="Thu, 02 Feb 2017 23:35:19 GMT" name="02">
+				<outline text="AutoVoice" created="Fri, 03 Feb 2017 02:44:05 GMT" type="outline">
+					<outline text="&lt;a href=&quot;https://joaoapps.com/autovoice/what-it-is/&quot;&gt;AutoVoice&lt;/a&gt; is a plugin that adds voice recognition to Tasker. Tasker is a scripting environment for Android that I have used off and on for several years." created="Fri, 03 Feb 2017 02:44:24 GMT"/>
+					<outline text="There is a " created="Fri, 03 Feb 2017 02:46:12 GMT"/>
+					</outline>
+				<outline text="Docker on Arm Repo" created="Thu, 02 Feb 2017 23:35:20 GMT" type="outline">
+					<outline text="&lt;a href=&quot;https://github.com/alexellis/docker-arm/tree/master/images/armhf&quot;&gt;Alex Ellis Docker Arm Repo&lt;/a&gt;" created="Thu, 02 Feb 2017 23:35:25 GMT"/>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="January 2017" created="Thu, 12 Jan 2017 22:42:44 GMT" name="january2017" collapse="true">
+			<outline text="January 20" created="Sat, 21 Jan 2017 03:35:00 GMT" name="20">
+				<outline text="Track Trump" created="Sat, 21 Jan 2017 03:35:01 GMT" type="outline">
+					<outline text="&lt;a href=&quot;http://www.track-trump.com/&quot;&gt;Web site&lt;/a&gt; tracking Trump's campaign promises" created="Sat, 21 Jan 2017 03:35:07 GMT"/>
+					<outline text="&lt;a href=&quot;http://trumpstatus.org/&quot;&gt;Trump status&lt;/a&gt;" created="Mon, 30 Jan 2017 02:45:25 GMT"/>
+					</outline>
+				</outline>
+			<outline text="January 19" created="Thu, 19 Jan 2017 23:30:20 GMT" name="19">
+				<outline text="Listicles" created="Thu, 19 Jan 2017 23:30:21 GMT" type="outline">
+					<outline text="Sounds funny, but it is &lt;a href=&quot;http://lo.1999.io/2017/01/18/listicles.html&quot;&gt;a feature&lt;/a&gt; Dave added LO2." created="Thu, 19 Jan 2017 23:30:47 GMT"/>
+					<outline text="&lt;a href=&quot;http://readwrite.club:1999/users/frankm/listicles/testListicle.html&quot;&gt;Here&lt;/a&gt; is the first one that I created" created="Thu, 19 Jan 2017 23:51:13 GMT"/>
+					</outline>
+				</outline>
+			<outline text="January 14" created="Sat, 14 Jan 2017 07:56:02 GMT" name="14">
+				<outline text="Linux Desktop and Notebooks" created="Sat, 14 Jan 2017 07:56:03 GMT" type="outline">
+					<outline text="Best Linux laptop" created="Sat, 14 Jan 2017 07:56:15 GMT" type="link" url="http://picknotebook.com/blog/linux-laptop/"/>
+					</outline>
+				</outline>
+			<outline text="January 12" created="Thu, 12 Jan 2017 22:42:45 GMT" name="12">
+				<outline text="Dave added scripts!" created="Thu, 12 Jan 2017 22:42:46 GMT" type="outline">
+					<outline text="Dave added Fargo's script functionality to Little Outliner! Yeah!" created="Thu, 12 Jan 2017 22:42:57 GMT"/>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="December 2016" created="Wed, 21 Dec 2016 23:34:35 GMT" name="december2016" collapse="true" isComment="false">
+			<outline text="December 21" created="Wed, 21 Dec 2016 23:34:36 GMT" name="21">
+				<outline text="Articles I Want To Write" created="Wed, 21 Dec 2016 23:34:37 GMT" type="outline">
+					<outline text="My technology orchids and onions" created="Wed, 21 Dec 2016 23:34:52 GMT">
+						<outline text="Orchids" created="Wed, 21 Dec 2016 23:35:45 GMT">
+							<outline text="iPad Mini 4" created="Wed, 21 Dec 2016 23:35:49 GMT"/>
+							<outline text="Echo (Alexa)" created="Wed, 21 Dec 2016 23:36:28 GMT"/>
+							<outline text="Philips Hue" created="Wed, 21 Dec 2016 23:36:56 GMT"/>
+							<outline text="Huawei Watch" created="Wed, 21 Dec 2016 23:37:10 GMT"/>
+							</outline>
+						<outline text="Onions" created="Wed, 21 Dec 2016 23:36:37 GMT">
+							<outline text="IoT Hubs" created="Wed, 21 Dec 2016 23:36:40 GMT"/>
+							<outline text="Android Wear" created="Wed, 21 Dec 2016 23:37:20 GMT">
+								<outline text="Doesn't handle Google Now reminders" created="Wed, 21 Dec 2016 23:37:30 GMT"/>
+								</outline>
+							<outline text="Android Tablets" created="Wed, 21 Dec 2016 23:37:40 GMT"/>
+							</outline>
+						</outline>
+					<outline text="My smarter home" created="Wed, 21 Dec 2016 23:38:14 GMT">
+						<outline text="Echo, Alexa and Dot" created="Wed, 21 Dec 2016 23:38:23 GMT"/>
+						<outline text="Philips Hue" created="Wed, 21 Dec 2016 23:38:33 GMT"/>
+						<outline text="SmartThings" created="Wed, 21 Dec 2016 23:38:38 GMT"/>
+						<outline text="Harmony" created="Wed, 21 Dec 2016 23:38:43 GMT"/>
+						</outline>
+					<outline text="Using OneNote" created="Wed, 21 Dec 2016 23:41:41 GMT"/>
+					</outline>
+				</outline>
+			</outline>
+		</body>
+	</opml>

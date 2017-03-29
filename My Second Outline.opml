@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>My First Public RWC Outline</title>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<dateModified>Thu, 14 Jul 2016 14:14:40 GMT</dateModified>
+		<expansionState></expansionState>
+		<lastCursor>4</lastCursor>
+		<longTitle>This is a public copy of an outline</longTitle>
+		<description>The first outline I've created using Little Outliner 2.</description>
+		</head>
+	<body>
+		<outline text="If I did everything correctly, this should be stored on my new nodestorage server."/>
+		<outline text="Let's see whether this saved." created="Wed, 13 Jul 2016 19:25:25 GMT"/>
+		<outline text="I had &lt;a href=&quot;http://readwrite.club:1999/users/frankm/2016/07/13/0101.html&quot;&gt;a moving experience&lt;/a&gt;" created="Wed, 13 Jul 2016 19:27:43 GMT"/>
+		<outline text="Public link doesn't work yet" created="Wed, 13 Jul 2016 19:26:37 GMT">
+			<outline text="Interesting, this copy of the outline is stored in the publicFiles folder. File, Get public link is not working.  " created="Wed, 13 Jul 2016 19:35:49 GMT"/>
+			<outline text="And I see that the callback script is sending what is in the publicFiles folder to my S3 bucket, which is nice, but means we have to think about back ups of privateFiles." created="Wed, 13 Jul 2016 19:41:17 GMT"/>
+			</outline>
+		<outline text="How Did I Create this public outline?" created="Wed, 13 Jul 2016 19:50:01 GMT">
+			<outline text="What I did" created="Wed, 13 Jul 2016 19:46:20 GMT">
+				<outline text="While in My First RWC Outline I clicked File, Get public link...  " created="Wed, 13 Jul 2016 19:46:23 GMT"/>
+				<outline text="A dialog with a URL to instantoutliner, the dialog doesn't appear to be working" created="Wed, 13 Jul 2016 19:47:28 GMT"/>
+				<outline text="A second tab of the outline appeared, with a default title used" created="Wed, 13 Jul 2016 19:47:55 GMT"/>
+				<outline text="I looked on my server and found it in the publicFiles/myOutlines folder" created="Wed, 13 Jul 2016 19:48:10 GMT"/>
+				<outline text="As you can see, I can &lt;a href=&quot;http://readwrite.club:1999/users/frankm/myOutlines/My%20Second%20Outline.opml&quot;&gt;link to the public version of the outline&lt;/a&gt;" created="Wed, 13 Jul 2016 19:48:26 GMT"/>
+				<outline text="I went into the AWS console, looked at my S3 bucket and found that this outline is being pubished to the bucket" created="Wed, 13 Jul 2016 19:48:57 GMT"/>
+				</outline>
+			</outline>
+		<outline text="Selecting text with mouse in the outline using Chrome doesn't work, just like Fargo " created="Wed, 13 Jul 2016 19:53:04 GMT">
+			<outline text="Seems to happen once the content is saved. If you move fast enough, you can initially select text with the mouse" created="Wed, 13 Jul 2016 19:59:52 GMT"/>
+			</outline>
+		<outline text="I like the private/public model, but I think I will still want a way to copy privateFiles somewhere else for backup, I could live with creating a S3 bucket just for private files and perhaps a second callback script. " created="Wed, 13 Jul 2016 19:53:59 GMT">
+			<outline text="My guess is some people will want files to be written to Dropbox, Google Drive, OneDrive or locally. " created="Wed, 13 Jul 2016 19:56:02 GMT"/>
+			</outline>
+		<outline text="I hope that Fargo's encrypt outline feature makes its way to Little Outliner. " created="Wed, 13 Jul 2016 19:56:51 GMT"/>
+		<outline text="Here is &lt;a href=&quot;http://reader.smallpicture.com/?opmlurl=http://readwrite.club:1999/users/frankm/myOutlines/My%20Second%20Outline.opml&quot;&gt;a link to this outline&lt;/a&gt;, viewed within Small Picture Reader" created="Wed, 13 Jul 2016 19:59:21 GMT">
+			<outline text="For some reason, the reader does not open the copy of the outline on S3" created="Wed, 13 Jul 2016 20:03:51 GMT"/>
+			</outline>
+		<outline text="I can import an outline created in Fargo after creating a public link. Import inserts the online below the current node, it does not create a new outline" created="Wed, 13 Jul 2016 20:06:08 GMT"/>
+		</body>
+	</opml>

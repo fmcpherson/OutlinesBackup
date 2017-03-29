@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>TestAWSStatusCenter</title>
+		<urlOpml>http://readwrite.club:1999/users/frankm/myOutlines/TestAWSStatusCenter.opml</urlOpml>
+		<longTitle>Test AWS Status Center</longTitle>
+		<description>Testing rendering of a new status center file</description>
+		<type>text/html</type>
+		<dateModified>Sun, 12 Feb 2017 20:01:29 GMT</dateModified>
+		<expansionState>1,5</expansionState>
+		<lastCursor>0</lastCursor>
+		</head>
+	<body>
+		<outline text="High level point 1" created="Sun, 12 Feb 2017 19:34:28 GMT">
+			<outline text="Item 1" created="Sun, 12 Feb 2017 19:34:39 GMT"/>
+			<outline text="Item 2" created="Sun, 12 Feb 2017 19:34:42 GMT"/>
+			<outline text="Item 3" created="Sun, 12 Feb 2017 19:34:43 GMT"/>
+			</outline>
+		<outline text="High level point 2" created="Sun, 12 Feb 2017 19:34:45 GMT">
+			<outline text="Item 1" created="Sun, 12 Feb 2017 19:34:50 GMT"/>
+			</outline>
+		<outline text="High level point 3" created="Sun, 12 Feb 2017 19:34:51 GMT"/>
+		</body>
+	</opml>

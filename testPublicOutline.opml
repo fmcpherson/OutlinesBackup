@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>testPublicOutline</title>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<dateModified>Thu, 14 Jul 2016 17:17:08 GMT</dateModified>
+		<expansionState></expansionState>
+		<lastCursor>1</lastCursor>
+		</head>
+	<body>
+		<outline text="Part one"/>
+		<outline text="Part two" created="Thu, 14 Jul 2016 14:28:29 GMT"/>
+		</body>
+	</opml>
