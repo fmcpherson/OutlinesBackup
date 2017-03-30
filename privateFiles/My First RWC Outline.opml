@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>My First RWC Outline</title>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<dateModified>Thu, 14 Jul 2016 13:35:54 GMT</dateModified>
+		<expansionState></expansionState>
+		<lastCursor>3</lastCursor>
+		</head>
+	<body>
+		<outline text="If I did everything correctly, this should be stored on my new nodestorage server."/>
+		<outline text="Let's see whether this saved." created="Wed, 13 Jul 2016 19:25:25 GMT"/>
+		<outline text="This outline is in privateFiles" created="Wed, 13 Jul 2016 19:37:24 GMT"/>
+		<outline text="Here is an update!" created="Thu, 14 Jul 2016 13:35:47 GMT"/>
+		</body>
+	</opml>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>Test New Article</title>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<dateModified>Fri, 03 Feb 2017 22:42:07 GMT</dateModified>
+		<expansionState>1,2,3,6,9,10,11</expansionState>
+		<lastCursor>11</lastCursor>
+		<urlUpdateSocket>ws://readwrite.club:2000/</urlUpdateSocket>
+		</head>
+	<body>
+		<outline text="February 2017" created="Thu, 02 Feb 2017 23:35:18 GMT" name="february2017">
+			<outline text="February 3" created="Fri, 03 Feb 2017 22:20:32 GMT" name="03">
+				<outline text="Virtualization topics I am studying" created="Fri, 03 Feb 2017 22:20:33 GMT" type="outline">
+					<outline text="Virtualizing Exchange 2016" created="Fri, 03 Feb 2017 22:20:42 GMT" type="link" url="https://technet.microsoft.com/en-us/library/jj619301(v=exchg.160).aspx"/>
+					<outline text="vmGenID security" created="Fri, 03 Feb 2017 22:21:14 GMT" type="link" url="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=vmgenid+security"/>
+					</outline>
+				</outline>
+			<outline text="February 2" created="Thu, 02 Feb 2017 23:35:19 GMT" name="02">
+				<outline text="AutoVoice" created="Fri, 03 Feb 2017 02:44:05 GMT" type="outline">
+					<outline text="&lt;a href=&quot;https://joaoapps.com/autovoice/what-it-is/&quot;&gt;AutoVoice&lt;/a&gt; is a plugin that adds voice recognition to Tasker. Tasker is a scripting environment for Android that I have used off and on for several years." created="Fri, 03 Feb 2017 02:44:24 GMT"/>
+					<outline text="There is a " created="Fri, 03 Feb 2017 02:46:12 GMT"/>
+					</outline>
+				<outline text="Docker on Arm Repo" created="Thu, 02 Feb 2017 23:35:20 GMT" type="outline">
+					<outline text="&lt;a href=&quot;https://github.com/alexellis/docker-arm/tree/master/images/armhf&quot;&gt;Alex Ellis Docker Arm Repo&lt;/a&gt;" created="Thu, 02 Feb 2017 23:35:25 GMT"/>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="January 2017" created="Thu, 12 Jan 2017 22:42:44 GMT" name="january2017">
+			<outline text="January 20" created="Sat, 21 Jan 2017 03:35:00 GMT" name="20">
+				<outline text="Track Trump" created="Sat, 21 Jan 2017 03:35:01 GMT" type="outline">
+					<outline text="&lt;a href=&quot;http://www.track-trump.com/&quot;&gt;Web site&lt;/a&gt; tracking Trump's campaign promises" created="Sat, 21 Jan 2017 03:35:07 GMT"/>
+					<outline text="&lt;a href=&quot;http://trumpstatus.org/&quot;&gt;Trump status&lt;/a&gt;" created="Mon, 30 Jan 2017 02:45:25 GMT"/>
+					</outline>
+				</outline>
+			<outline text="January 19" created="Thu, 19 Jan 2017 23:30:20 GMT" name="19">
+				<outline text="Listicles" created="Thu, 19 Jan 2017 23:30:21 GMT" type="outline">
+					<outline text="Sounds funny, but it is &lt;a href=&quot;http://lo.1999.io/2017/01/18/listicles.html&quot;&gt;a feature&lt;/a&gt; Dave added LO2." created="Thu, 19 Jan 2017 23:30:47 GMT"/>
+					<outline text="&lt;a href=&quot;http://readwrite.club:1999/users/frankm/listicles/testListicle.html&quot;&gt;Here&lt;/a&gt; is the first one that I created" created="Thu, 19 Jan 2017 23:51:13 GMT"/>
+					</outline>
+				</outline>
+			<outline text="January 14" created="Sat, 14 Jan 2017 07:56:02 GMT" name="14">
+				<outline text="Linux Desktop and Notebooks" created="Sat, 14 Jan 2017 07:56:03 GMT" type="outline">
+					<outline text="Best Linux laptop" created="Sat, 14 Jan 2017 07:56:15 GMT" type="link" url="http://picknotebook.com/blog/linux-laptop/"/>
+					</outline>
+				</outline>
+			<outline text="January 12" created="Thu, 12 Jan 2017 22:42:45 GMT" name="12">
+				<outline text="Dave added scripts!" created="Thu, 12 Jan 2017 22:42:46 GMT" type="outline">
+					<outline text="Dave added Fargo's script functionality to Little Outliner! Yeah!" created="Thu, 12 Jan 2017 22:42:57 GMT"/>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="December 2016" created="Wed, 21 Dec 2016 23:34:35 GMT" name="december2016">
+			<outline text="December 21" created="Wed, 21 Dec 2016 23:34:36 GMT" name="21">
+				<outline text="Articles I Want To Write" created="Wed, 21 Dec 2016 23:34:37 GMT" type="outline">
+					<outline text="My technology orchids and onions" created="Wed, 21 Dec 2016 23:34:52 GMT">
+						<outline text="Orchids" created="Wed, 21 Dec 2016 23:35:45 GMT">
+							<outline text="iPad Mini 4" created="Wed, 21 Dec 2016 23:35:49 GMT"/>
+							<outline text="Echo (Alexa)" created="Wed, 21 Dec 2016 23:36:28 GMT"/>
+							<outline text="Philips Hue" created="Wed, 21 Dec 2016 23:36:56 GMT"/>
+							<outline text="Huawei Watch" created="Wed, 21 Dec 2016 23:37:10 GMT"/>
+							</outline>
+						<outline text="Onions" created="Wed, 21 Dec 2016 23:36:37 GMT">
+							<outline text="IoT Hubs" created="Wed, 21 Dec 2016 23:36:40 GMT"/>
+							<outline text="Android Wear" created="Wed, 21 Dec 2016 23:37:20 GMT">
+								<outline text="Doesn't handle Google Now reminders" created="Wed, 21 Dec 2016 23:37:30 GMT"/>
+								</outline>
+							<outline text="Android Tablets" created="Wed, 21 Dec 2016 23:37:40 GMT"/>
+							</outline>
+						</outline>
+					<outline text="My smarter home" created="Wed, 21 Dec 2016 23:38:14 GMT">
+						<outline text="Echo, Alexa and Dot" created="Wed, 21 Dec 2016 23:38:23 GMT"/>
+						<outline text="Philips Hue" created="Wed, 21 Dec 2016 23:38:33 GMT"/>
+						<outline text="SmartThings" created="Wed, 21 Dec 2016 23:38:38 GMT"/>
+						<outline text="Harmony" created="Wed, 21 Dec 2016 23:38:43 GMT"/>
+						</outline>
+					<outline text="Using OneNote" created="Wed, 21 Dec 2016 23:41:41 GMT"/>
+					</outline>
+				</outline>
+			</outline>
+		</body>
+	</opml>

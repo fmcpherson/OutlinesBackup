@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>testPublicOutline</title>
+		<ownerTwitterScreenName>frankm</ownerTwitterScreenName>
+		<ownerName>Frank McPherson</ownerName>
+		<ownerId>http://twitter.com/frankm</ownerId>
+		<dateModified>Thu, 04 Aug 2016 14:30:12 GMT</dateModified>
+		<expansionState></expansionState>
+		<lastCursor>3</lastCursor>
+		</head>
+	<body>
+		<outline text="Part one"/>
+		<outline text="Part two" created="Thu, 14 Jul 2016 14:28:29 GMT"/>
+		<outline text="I can now send a tween from within an outline in Little Outliner 2. Not entirely sure why I would want to do this." type="tweet" created="Mon, 01 Aug 2016 19:13:34 GMT" tweetUserName="frankm" tweetId="760192153427423232"/>
+		<outline text="I guess it does provide an archive of what I tweet, on my own server, rather than relying on my Twitter profile." type="tweet" created="Mon, 01 Aug 2016 19:15:49 GMT" tweetUserName="frankm" tweetId="760192449625018368"/>
+		</body>
+	</opml>
